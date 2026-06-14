@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/red_wool",
+    "top": "sleeping_bag:block/red_sleeping_bag_foot_top",
+    "bottom": "sleeping_bag:block/red_sleeping_bag_foot_bottom",
+    "foot": "sleeping_bag:block/red_sleeping_bag_foot_foot",
+    "left": "sleeping_bag:block/red_sleeping_bag_foot_left",
+    "right": "sleeping_bag:block/red_sleeping_bag_foot_right",
+    "seam": "sleeping_bag:block/red_sleeping_bag_foot_top"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 4, 16],
+      "faces": {
+        "up":    { "texture": "#top",    "uv": [0, 0, 16, 16] },
+        "down":  { "texture": "#bottom", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#seam",   "uv": [0, 0, 16, 4] },
+        "south": { "texture": "#foot",   "uv": [0, 0, 16, 4] },
+        "west":  { "texture": "#left",   "uv": [0, 0, 16, 4] },
+        "east":  { "texture": "#right",  "uv": [0, 0, 16, 4] }
+      }
+    }
+  ]
+}

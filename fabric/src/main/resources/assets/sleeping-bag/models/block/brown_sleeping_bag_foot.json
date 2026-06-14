@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/brown_wool",
+    "top": "sleeping-bag:block/brown_sleeping_bag_foot_top",
+    "bottom": "sleeping-bag:block/brown_sleeping_bag_foot_bottom",
+    "head": "sleeping-bag:block/brown_sleeping_bag_foot_head",
+    "foot": "sleeping-bag:block/brown_sleeping_bag_foot_foot",
+    "left": "sleeping-bag:block/brown_sleeping_bag_foot_left",
+    "right": "sleeping-bag:block/brown_sleeping_bag_foot_right"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 4, 16],
+      "faces": {
+        "up":    { "texture": "#top", "uv": [0, 0, 16, 16] },
+        "down":  { "texture": "#bottom", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#head", "uv": [0, 0, 16, 4] },
+        "south": { "texture": "#foot", "uv": [0, 0, 16, 4] },
+        "west":  { "texture": "#left", "uv": [0, 0, 16, 4] },
+        "east":  { "texture": "#right", "uv": [0, 0, 16, 4] }
+      }
+    }
+  ]
+}

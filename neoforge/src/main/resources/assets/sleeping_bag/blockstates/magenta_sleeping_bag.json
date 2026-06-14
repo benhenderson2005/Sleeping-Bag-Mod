@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,part=foot": { "model": "sleeping_bag:block/magenta_sleeping_bag_foot" },
+    "facing=east,part=foot":  { "model": "sleeping_bag:block/magenta_sleeping_bag_foot", "y": 90 },
+    "facing=south,part=foot": { "model": "sleeping_bag:block/magenta_sleeping_bag_foot", "y": 180 },
+    "facing=west,part=foot":  { "model": "sleeping_bag:block/magenta_sleeping_bag_foot", "y": 270 },
+
+    "facing=north,part=head": { "model": "sleeping_bag:block/magenta_sleeping_bag_head" },
+    "facing=east,part=head":  { "model": "sleeping_bag:block/magenta_sleeping_bag_head", "y": 90 },
+    "facing=south,part=head": { "model": "sleeping_bag:block/magenta_sleeping_bag_head", "y": 180 },
+    "facing=west,part=head":  { "model": "sleeping_bag:block/magenta_sleeping_bag_head", "y": 270 }
+  }
+}

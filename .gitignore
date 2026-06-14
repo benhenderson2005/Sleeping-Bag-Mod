@@ -1,0 +1,49 @@
+# Gradle
+.gradle/
+build/
+!**/src/**/build/
+!**/gradle/wrapper/gradle-wrapper.jar
+
+# Java
+classes/
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+!**/src/**/out/
+.run/
+
+# Eclipse
+*.launch
+.apt_generated
+.classpath
+.eclipse/
+.factorypath
+.project
+.settings/
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/**/bin/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+*.DS_Store
+
+# Minecraft modding
+run/
+!**/src/**/run/
+**/src/generated/**/.cache/
+repo/
+!**/src/**/repo/

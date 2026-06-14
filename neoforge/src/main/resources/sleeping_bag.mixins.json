@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.sleepingbag.modid.mixin.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AvatarRenderStateMixin",
+    "EntityRendererMixin",
+    "PlayerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

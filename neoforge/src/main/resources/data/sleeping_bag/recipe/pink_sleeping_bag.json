@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW"
+  ],
+  "key": {
+    "W": "minecraft:pink_wool"
+  },
+  "result": {
+    "id": "sleeping_bag:pink_sleeping_bag",
+    "count": 1
+  }
+}

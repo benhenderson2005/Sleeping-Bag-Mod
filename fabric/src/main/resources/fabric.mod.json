@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "sleeping-bag",
+	"version": "${version}",
+	"name": "sleeping bag",
+	"description": "This mod adds a sleeping bag item that allows players to sleep without setting their spawn point.",
+	"authors": [
+		"Ben Henderson"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sleeping-bag/textures/item/red_sleeping_bag.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.SleepingBag"
+		],
+		"client": [
+			"name.modid.client.SleepingBagClient"
+		]
+	},
+	"mixins": [
+		"sleeping-bag.mixins.json",
+		{
+			"config": "sleeping-bag.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
